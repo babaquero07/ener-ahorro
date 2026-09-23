@@ -1,5 +1,6 @@
 import { ClientProblemSection } from "@/components/home/client-problem-section"
 import { Hero } from "@/components/home/hero"
+import { Solution } from "@/components/home/solution"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -68,6 +69,7 @@ export default function Page() {
     <main className="flex h-full flex-col">
       <Hero />
       <ClientProblemSection />
+      <Solution />
     </main>
   )
 }
