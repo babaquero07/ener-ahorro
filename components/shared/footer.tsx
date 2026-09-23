@@ -32,7 +32,7 @@ export function Footer() {
 
       <ul className="flex items-center gap-8">
         {footerLinks.map((link) => (
-          <li key={link.href} className="text-sm font-semibold text-white">
+          <li key={link.label} className="text-sm font-semibold text-white">
             <Link href={link.href}>{link.label}</Link>
           </li>
         ))}
