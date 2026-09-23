@@ -1,6 +1,7 @@
 import { CustomerBenefits } from "@/components/home/customer-benefits"
 import { CustomerProblems } from "@/components/home/customer-problems"
 import { Hero } from "@/components/home/hero"
+import { HowWorksIt } from "@/components/home/how-works-it"
 import { Solution } from "@/components/home/solution"
 import { Metadata } from "next"
 
@@ -72,6 +73,7 @@ export default function Page() {
       <CustomerProblems />
       <Solution />
       <CustomerBenefits />
+      <HowWorksIt />
     </main>
   )
 }
