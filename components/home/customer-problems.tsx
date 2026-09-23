@@ -25,30 +25,30 @@ const problemsCards: {
   },
 ]
 
-export function ClientProblemSection() {
+export function CustomerProblems() {
   return (
     <section className="flex flex-col items-center gap-8 p-16">
-      <div className="flex flex-col gap-4">
+      <div className="flex w-full flex-col gap-4 text-center">
         <h2 className="text-4xl font-extrabold">
           ¿Cansado de pagar demasiado en tus facturas?
         </h2>
-        <p className="text-left text-lg text-muted-foreground">
+        <p className="text-lg text-muted-foreground">
           Miles de clientes en España pierden dinero cada mes por no tener una
           tarifa adaptada a su consumo real.
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6 md:justify-start">
+      <div className="flex flex-wrap justify-center gap-6 lg:justify-start">
         {problemsCards.map((item, index) => {
           const { icon: Icon, title, description } = item
 
           return (
             <Card
-              className="max-w-[418px] rounded-xl border border-[#e1e8f0]"
+              className="max-w-104.5 rounded-xl border border-[#e1e8f0] px-4 py-6"
               key={index}
             >
               <CardHeader className="flex flex-col gap-4">
-                <div className="flex size-14 items-center justify-center rounded-xl bg-red-50 p-2">
+                <div className="flex size-14 items-center justify-center rounded-xl bg-red-50">
                   <Icon className="size-7 text-red-600" />
                 </div>
 
