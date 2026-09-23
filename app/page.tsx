@@ -35,7 +35,8 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Asesoramiento Energético | Reduce tu Factura de Luz y Gas",
-    description: "Descubre cómo reduciminio.es",
+    description:
+      "Descubre cómo reducir tus gastos de energía con nuestra revisión gratuita. Analizamos tu caso y te proponemos la mejor solución del mercado español.",
     url: "https://ener-ahorro.vercel.app",
     siteName: "EnerAhorro España",
     images: [
