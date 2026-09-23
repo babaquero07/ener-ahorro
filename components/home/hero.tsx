@@ -62,7 +62,10 @@ export function Hero() {
 
           <div className="flex flex-wrap items-center justify-center gap-4 md:justify-start">
             {ctaCards.map((card, index) => (
-              <Card className="min-w-52 border border-[#e1e8f0]" key={index}>
+              <Card
+                className="min-w-52 rounded-xl border border-[#e1e8f0]"
+                key={index}
+              >
                 <CardHeader>
                   <CardTitle className="text-4xl font-extrabold text-[#047857]">
                     {card.title}
