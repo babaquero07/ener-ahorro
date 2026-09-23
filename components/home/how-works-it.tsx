@@ -28,7 +28,7 @@ const stepsCards: {
     stepNumber: 3,
     icon: CircleEuro,
     title: "Empiezas a ahorrar",
-    description: "Te presentamos la propuesta de ahorro y gestionamos todo..",
+    description: "Te presentamos la propuesta de ahorro y gestionamos todo.",
   },
 ]
 
