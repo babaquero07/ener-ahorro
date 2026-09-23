@@ -20,7 +20,7 @@ export function Footer() {
   const actualYear = new Date().getFullYear()
 
   return (
-    <footer className="flex items-center justify-between bg-[#0f1729] px-8 py-8 md:px-16">
+    <footer className="flex flex-col gap-8 bg-[#0f1729] px-8 py-8 md:px-16 lg:flex-row lg:items-center lg:justify-between lg:gap-0">
       <div className="flex flex-col gap-1">
         <h4 className="text-[22px] font-extrabold text-white">
           EnerAhorro España
