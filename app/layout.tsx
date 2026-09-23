@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from "@/lib/utils"
 import { NavBar } from "@/components/shared/nav-bar"
 import { MobileNav } from "@/components/shared/mobile-nav"
+import { Footer } from "@/components/shared/footer"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -37,6 +38,7 @@ export default function RootLayout({
           </>
         </header>
         <ThemeProvider>{children}</ThemeProvider>
+        <Footer />
       </body>
     </html>
   )
