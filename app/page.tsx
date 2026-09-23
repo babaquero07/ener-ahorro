@@ -1,3 +1,4 @@
+import { Contact } from "@/components/home/contact"
 import { CustomerBenefits } from "@/components/home/customer-benefits"
 import { CustomerProblems } from "@/components/home/customer-problems"
 import { Hero } from "@/components/home/hero"
@@ -74,6 +75,7 @@ export default function Page() {
       <Solution />
       <CustomerBenefits />
       <HowWorksIt />
+      <Contact />
     </main>
   )
 }
