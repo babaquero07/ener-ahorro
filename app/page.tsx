@@ -1,3 +1,5 @@
+import { ClientProblemSection } from "@/components/home/client-problem-section"
+import { Hero } from "@/components/home/hero"
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -62,5 +64,10 @@ export const metadata: Metadata = {
 }
 
 export default function Page() {
-  return <main className="flex min-h-svh p-8"></main>
+  return (
+    <main className="flex h-full flex-col">
+      <Hero />
+      <ClientProblemSection />
+    </main>
+  )
 }
