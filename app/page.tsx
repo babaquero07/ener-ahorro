@@ -30,13 +30,17 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
+  alternates: {
+    canonical: "https://ener-ahorro.vercel.app",
+  },
   openGraph: {
     title: "Asesoramiento Energético | Reduce tu Factura de Luz y Gas",
     description: "Descubre cómo reduciminio.es",
+    url: "https://ener-ahorro.vercel.app",
     siteName: "EnerAhorro España",
     images: [
       {
-        url: "/public/images/EnerAhorroLogo.png",
+        url: "https://ener-ahorro.vercel.app/images/EnerAhorroLogo.png",
         width: 1200,
         height: 630,
         alt: "Familia española ahorrando en su factura de luz tras recibir asesoría energética",
@@ -50,7 +54,7 @@ export const metadata: Metadata = {
     title: "Ahorra en tu Factura de Luz y Gas | Asesoramiento Energético",
     description:
       "Solicita tu auditoría energética gratuita y empieza a pagar menos por la luz y el gas en España.",
-    images: ["/public/images/EnerAhorroLogo.png"],
+    images: ["https://ener-ahorro.vercel.app/images/EnerAhorroLogo.png"],
   },
   robots: {
     index: true,
