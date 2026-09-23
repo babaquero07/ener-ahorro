@@ -1,4 +1,5 @@
-import { ClientProblemSection } from "@/components/home/client-problem-section"
+import { CustomerBenefits } from "@/components/home/customer-benefits"
+import { CustomerProblems } from "@/components/home/customer-problems"
 import { Hero } from "@/components/home/hero"
 import { Solution } from "@/components/home/solution"
 import { Metadata } from "next"
@@ -68,8 +69,9 @@ export default function Page() {
   return (
     <main className="flex h-full flex-col">
       <Hero />
-      <ClientProblemSection />
+      <CustomerProblems />
       <Solution />
+      <CustomerBenefits />
     </main>
   )
 }
