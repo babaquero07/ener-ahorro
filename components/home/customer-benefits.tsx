@@ -51,7 +51,7 @@ const benefitsCards: {
 
 export function CustomerBenefits() {
   return (
-    <section className="flex flex-col gap-8 p-16">
+    <section id="services" className="flex flex-col gap-8 p-16">
       <div className="flex w-full flex-col gap-4 text-center">
         <h2 className="text-4xl font-extrabold">
           ¿Qué obtienes con nuestro asesoramiento?

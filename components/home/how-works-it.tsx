@@ -64,7 +64,10 @@ function StepCard({
 
 export function HowWorksIt() {
   return (
-    <section className="flex flex-col gap-10 bg-[#F8FAFC] p-16">
+    <section
+      id="how-it-works"
+      className="flex flex-col gap-10 bg-[#F8FAFC] p-16"
+    >
       <div className="flex w-full flex-col gap-4 text-center">
         <h2 className="text-4xl font-extrabold">
           Tu ahorro en tres simples pasos

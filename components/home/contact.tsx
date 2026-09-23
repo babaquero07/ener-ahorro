@@ -3,7 +3,10 @@ import { ContactForm } from "@/components/home/contact-form"
 
 export function Contact() {
   return (
-    <section className="w-full bg-linear-to-bl from-[#0F172A] via-[#064E3B] to-[#065F46]">
+    <section
+      id="contact"
+      className="w-full bg-linear-to-bl from-[#0F172A] via-[#064E3B] to-[#065F46]"
+    >
       <div className="grid grid-cols-5 px-6 md:px-16">
         <div className="col-span-5 flex flex-col justify-center gap-6 py-16 xl:col-span-2">
           <span className="text-[14px] font-extrabold text-[#86EFAC]">
